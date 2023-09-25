@@ -5,7 +5,7 @@
 
 Клонирование репозиторя;
 ```bash
-git clone ...
+git clone https://github.com/aFy4a/sort.git
 cd sort
 poetry install
 ```
