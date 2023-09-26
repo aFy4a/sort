@@ -12,5 +12,8 @@ def sort(arr):
 
 @click.command()
 def main():
-    arr = int(input())
+    arr = input().split()
+    for i in range(len(arr)):
+        arr[i] = int(arr[i])
+
     click.echo(sort(arr))
