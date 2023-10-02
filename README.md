@@ -12,7 +12,7 @@ poetry install
 
 Запуск:
 ```bash
-poetry run sort
+poetry run sort --arr 2 --arr 9 --arr 5
 ```
 
 Тесты:
